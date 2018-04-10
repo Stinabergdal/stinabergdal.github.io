@@ -189,3 +189,52 @@ img.resize4 {
 {
         opacity:0.5;
 }
+
+
+
+@media (max-width: 400px) {
+h2 {
+font-size: 20px;
+}
+
+.Senegal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  top: 100px;
+  bottom:400px;
+}
+
+.mainhead {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-left: px;
+  padding-right: 80px;
+
+  width: 70%;
+  height: 40%;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  right:0px;
+  background-color: #ecd9c6;
+}
+
+.my-name {
+  font-size: 75px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  line-height: 95%;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 15px;
+}
+
+}
