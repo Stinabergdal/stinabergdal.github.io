@@ -188,7 +188,7 @@ justify-content: flex-start;
   left: 180px;
   right:200px;
   background-color: #e6ccb3;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   margin-top: 150px;
 }
 
@@ -301,5 +301,17 @@ padding-bottom: 0px;
     float: left;
     right: 150px;
     bottom: -20px;
+
+}
+
+.center1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.center2 {
+  display: flex;
+  justify-content: center;
 
 }
